@@ -1,0 +1,5 @@
+E:\C#_WORK\SimpleTicketBookingSystem.App\SimpleTicketBookingSystem.Services\obj\Debug\net6.0\SimpleTicketBookingSystem.Services.csproj.AssemblyReference.cache
+E:\C#_WORK\SimpleTicketBookingSystem.App\SimpleTicketBookingSystem.Services\obj\Debug\net6.0\SimpleTicketBookingSystem.Services.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#_WORK\SimpleTicketBookingSystem.App\SimpleTicketBookingSystem.Services\obj\Debug\net6.0\SimpleTicketBookingSystem.Services.AssemblyInfoInputs.cache
+E:\C#_WORK\SimpleTicketBookingSystem.App\SimpleTicketBookingSystem.Services\obj\Debug\net6.0\SimpleTicketBookingSystem.Services.AssemblyInfo.cs
+E:\C#_WORK\SimpleTicketBookingSystem.App\SimpleTicketBookingSystem.Services\obj\Debug\net6.0\SimpleTicketBookingSystem.Services.csproj.CoreCompileInputs.cache

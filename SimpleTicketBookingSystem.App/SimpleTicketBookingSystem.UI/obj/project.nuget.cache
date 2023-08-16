@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "5LMP2nC/cAuq73B0xPDAFCH0RkLjxbHNiqNR95SFAonag1QcIed0d8A21oCWLgxEIma665VmmZVPbElt7sr0cw==",
+  "success": true,
+  "projectFilePath": "E:\\PolantSystemTiked\\SimpleTicketBookingSystem.App\\SimpleTicketBookingSystem.UI\\SimpleTicketBookingSystem.UI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DIO\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\DIO\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\DIO\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
+    "C:\\Users\\DIO\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}

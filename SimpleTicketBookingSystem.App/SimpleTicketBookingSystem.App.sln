@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleTicketBookingSystem.App", "SimpleTicketBookingSystem.App\SimpleTicketBookingSystem.App.csproj", "{5B49F29F-B5F8-43DD-BC48-A9EEC870B13F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleTicketBookingSystem.Data", "SimpleTicketBookingSystem.Data\SimpleTicketBookingSystem.Data.csproj", "{C6D5EF13-2B27-4FC7-9B4B-679454DDC551}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleTicketBookingSystem.UI", "SimpleTicketBookingSystem.UI\SimpleTicketBookingSystem.UI.csproj", "{F9888CF9-B5A6-468C-8F32-838616F248F4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleTicketBookingSystem.Interfaces", "SimpleTicketBookingSystem.Interfaces\SimpleTicketBookingSystem.Interfaces.csproj", "{75381994-246B-4592-B858-C081A1EF483C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleTicketBookingSystem.Enums", "SimpleTicketBookingSystem.Enums\SimpleTicketBookingSystem.Enums.csproj", "{C933D292-8FF1-4E38-A6DE-2CF77AF86421}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleTicketBookingSystem.Service", "SimpleTicketBookingSystem.Service\SimpleTicketBookingSystem.Service.csproj", "{28247148-F4E9-40B7-ABE5-66FEC33BBB2D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B49F29F-B5F8-43DD-BC48-A9EEC870B13F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B49F29F-B5F8-43DD-BC48-A9EEC870B13F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B49F29F-B5F8-43DD-BC48-A9EEC870B13F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B49F29F-B5F8-43DD-BC48-A9EEC870B13F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6D5EF13-2B27-4FC7-9B4B-679454DDC551}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6D5EF13-2B27-4FC7-9B4B-679454DDC551}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6D5EF13-2B27-4FC7-9B4B-679454DDC551}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6D5EF13-2B27-4FC7-9B4B-679454DDC551}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9888CF9-B5A6-468C-8F32-838616F248F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9888CF9-B5A6-468C-8F32-838616F248F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9888CF9-B5A6-468C-8F32-838616F248F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9888CF9-B5A6-468C-8F32-838616F248F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75381994-246B-4592-B858-C081A1EF483C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75381994-246B-4592-B858-C081A1EF483C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75381994-246B-4592-B858-C081A1EF483C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75381994-246B-4592-B858-C081A1EF483C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C933D292-8FF1-4E38-A6DE-2CF77AF86421}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C933D292-8FF1-4E38-A6DE-2CF77AF86421}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C933D292-8FF1-4E38-A6DE-2CF77AF86421}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C933D292-8FF1-4E38-A6DE-2CF77AF86421}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28247148-F4E9-40B7-ABE5-66FEC33BBB2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28247148-F4E9-40B7-ABE5-66FEC33BBB2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28247148-F4E9-40B7-ABE5-66FEC33BBB2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28247148-F4E9-40B7-ABE5-66FEC33BBB2D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E85321A3-C66E-46A9-AD58-E2F91FE283DA}
+	EndGlobalSection
+EndGlobal
