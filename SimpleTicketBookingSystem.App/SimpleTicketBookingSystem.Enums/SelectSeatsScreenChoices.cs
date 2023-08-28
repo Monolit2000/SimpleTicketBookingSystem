@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace SimpleTicketBookingSystem.Enums
 {
+    /// <summary>
+    /// select seats screen selection options
+    /// </summary>
     public enum SelectSeatsScreenChoices
     {
         Exit = 0,

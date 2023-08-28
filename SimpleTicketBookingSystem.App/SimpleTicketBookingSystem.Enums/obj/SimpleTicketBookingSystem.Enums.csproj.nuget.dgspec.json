@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\PolantSystemTiked\\SimpleTicketBookingSystem.App\\SimpleTicketBookingSystem.Enums\\SimpleTicketBookingSystem.Enums.csproj": {}
+    "E:\\final_coment\\SimpleTicketBookingSystem\\SimpleTicketBookingSystem.App\\SimpleTicketBookingSystem.Enums\\SimpleTicketBookingSystem.Enums.csproj": {}
   },
   "projects": {
-    "E:\\PolantSystemTiked\\SimpleTicketBookingSystem.App\\SimpleTicketBookingSystem.Enums\\SimpleTicketBookingSystem.Enums.csproj": {
+    "E:\\final_coment\\SimpleTicketBookingSystem\\SimpleTicketBookingSystem.App\\SimpleTicketBookingSystem.Enums\\SimpleTicketBookingSystem.Enums.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\PolantSystemTiked\\SimpleTicketBookingSystem.App\\SimpleTicketBookingSystem.Enums\\SimpleTicketBookingSystem.Enums.csproj",
+        "projectUniqueName": "E:\\final_coment\\SimpleTicketBookingSystem\\SimpleTicketBookingSystem.App\\SimpleTicketBookingSystem.Enums\\SimpleTicketBookingSystem.Enums.csproj",
         "projectName": "SimpleTicketBookingSystem.Enums",
-        "projectPath": "E:\\PolantSystemTiked\\SimpleTicketBookingSystem.App\\SimpleTicketBookingSystem.Enums\\SimpleTicketBookingSystem.Enums.csproj",
+        "projectPath": "E:\\final_coment\\SimpleTicketBookingSystem\\SimpleTicketBookingSystem.App\\SimpleTicketBookingSystem.Enums\\SimpleTicketBookingSystem.Enums.csproj",
         "packagesPath": "C:\\Users\\DIO\\.nuget\\packages\\",
-        "outputPath": "E:\\PolantSystemTiked\\SimpleTicketBookingSystem.App\\SimpleTicketBookingSystem.Enums\\obj\\",
+        "outputPath": "E:\\final_coment\\SimpleTicketBookingSystem\\SimpleTicketBookingSystem.App\\SimpleTicketBookingSystem.Enums\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

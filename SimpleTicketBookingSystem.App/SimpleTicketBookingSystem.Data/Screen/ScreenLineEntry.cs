@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace SimpleTicketBookingSystem.Data.Screen
 {
+    /// <summary>
+    /// screen line class
+    /// </summary>
     public class ScreenLineEntry
     {
         public string? BackgroundColor { get; set; }

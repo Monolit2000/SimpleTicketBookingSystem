@@ -247,11 +247,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\PolantSystemTiked\\SimpleTicketBookingSystem.App\\SimpleTicketBookingSystem.Interfaces\\SimpleTicketBookingSystem.Interfaces.csproj",
+      "projectUniqueName": "E:\\final_coment\\SimpleTicketBookingSystem\\SimpleTicketBookingSystem.App\\SimpleTicketBookingSystem.Interfaces\\SimpleTicketBookingSystem.Interfaces.csproj",
       "projectName": "SimpleTicketBookingSystem.Interfaces",
-      "projectPath": "E:\\PolantSystemTiked\\SimpleTicketBookingSystem.App\\SimpleTicketBookingSystem.Interfaces\\SimpleTicketBookingSystem.Interfaces.csproj",
+      "projectPath": "E:\\final_coment\\SimpleTicketBookingSystem\\SimpleTicketBookingSystem.App\\SimpleTicketBookingSystem.Interfaces\\SimpleTicketBookingSystem.Interfaces.csproj",
       "packagesPath": "C:\\Users\\DIO\\.nuget\\packages\\",
-      "outputPath": "E:\\PolantSystemTiked\\SimpleTicketBookingSystem.App\\SimpleTicketBookingSystem.Interfaces\\obj\\",
+      "outputPath": "E:\\final_coment\\SimpleTicketBookingSystem\\SimpleTicketBookingSystem.App\\SimpleTicketBookingSystem.Interfaces\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace SimpleTicketBookingSystem.Interfaces.Data
 {
+    /// <summary>
+    /// seat interface
+    /// </summary>
     public interface ISeat
     {
         string icon { get; set; }

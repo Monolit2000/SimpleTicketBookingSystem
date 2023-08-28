@@ -1788,11 +1788,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\PolantSystemTiked\\SimpleTicketBookingSystem.App\\SimpleTicketBookingSystem.App\\SimpleTicketBookingSystem.App.csproj",
+      "projectUniqueName": "E:\\final_coment\\SimpleTicketBookingSystem\\SimpleTicketBookingSystem.App\\SimpleTicketBookingSystem.App\\SimpleTicketBookingSystem.App.csproj",
       "projectName": "SimpleTicketBookingSystem.App",
-      "projectPath": "E:\\PolantSystemTiked\\SimpleTicketBookingSystem.App\\SimpleTicketBookingSystem.App\\SimpleTicketBookingSystem.App.csproj",
+      "projectPath": "E:\\final_coment\\SimpleTicketBookingSystem\\SimpleTicketBookingSystem.App\\SimpleTicketBookingSystem.App\\SimpleTicketBookingSystem.App.csproj",
       "packagesPath": "C:\\Users\\DIO\\.nuget\\packages\\",
-      "outputPath": "E:\\PolantSystemTiked\\SimpleTicketBookingSystem.App\\SimpleTicketBookingSystem.App\\obj\\",
+      "outputPath": "E:\\final_coment\\SimpleTicketBookingSystem\\SimpleTicketBookingSystem.App\\SimpleTicketBookingSystem.App\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1813,11 +1813,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\PolantSystemTiked\\SimpleTicketBookingSystem.App\\SimpleTicketBookingSystem.Service\\SimpleTicketBookingSystem.Service.csproj": {
-              "projectPath": "E:\\PolantSystemTiked\\SimpleTicketBookingSystem.App\\SimpleTicketBookingSystem.Service\\SimpleTicketBookingSystem.Service.csproj"
+            "E:\\final_coment\\SimpleTicketBookingSystem\\SimpleTicketBookingSystem.App\\SimpleTicketBookingSystem.Service\\SimpleTicketBookingSystem.Service.csproj": {
+              "projectPath": "E:\\final_coment\\SimpleTicketBookingSystem\\SimpleTicketBookingSystem.App\\SimpleTicketBookingSystem.Service\\SimpleTicketBookingSystem.Service.csproj"
             },
-            "E:\\PolantSystemTiked\\SimpleTicketBookingSystem.App\\SimpleTicketBookingSystem.UI\\SimpleTicketBookingSystem.UI.csproj": {
-              "projectPath": "E:\\PolantSystemTiked\\SimpleTicketBookingSystem.App\\SimpleTicketBookingSystem.UI\\SimpleTicketBookingSystem.UI.csproj"
+            "E:\\final_coment\\SimpleTicketBookingSystem\\SimpleTicketBookingSystem.App\\SimpleTicketBookingSystem.UI\\SimpleTicketBookingSystem.UI.csproj": {
+              "projectPath": "E:\\final_coment\\SimpleTicketBookingSystem\\SimpleTicketBookingSystem.App\\SimpleTicketBookingSystem.UI\\SimpleTicketBookingSystem.UI.csproj"
             }
           }
         }

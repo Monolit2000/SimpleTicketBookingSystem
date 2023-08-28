@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace SimpleTicketBookingSystem.Data
 {
     /// <summary>
-    /// Клас список фільмів 
+    /// interface implementation
     /// </summary>
     public class Movies : IMovies
     {

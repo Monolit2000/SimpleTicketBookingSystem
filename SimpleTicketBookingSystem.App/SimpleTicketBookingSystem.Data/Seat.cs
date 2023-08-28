@@ -7,7 +7,9 @@ using System.Threading.Tasks;
 
 namespace SimpleTicketBookingSystem.Data
 {
-    //⦁	Створити клас Seat з властивостями: Row, Number, IsAvailable.
+    /// <summary>
+    /// interface implementation
+    /// </summary>
     public class Seat : ISeat
     {
         public int Row { get; set; }

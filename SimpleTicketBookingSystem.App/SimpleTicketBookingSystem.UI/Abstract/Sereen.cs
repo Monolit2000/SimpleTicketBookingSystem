@@ -17,6 +17,9 @@ public abstract class Screen
 
     //private IDataService _dataService;
 
+    /// <summary>
+    /// variable to store the list lines
+    /// </summary>
     public List<ScreenLineEntry> screenLines { get; set; } = new List<ScreenLineEntry>();
 
     /// <summary>
@@ -39,101 +42,9 @@ public abstract class Screen
     #endregion
 
 
-    #region TEST
-    ///// <summary>
-    ///// 
-    ///// </summary>
-    ///// <param name="RowCount"></param>
-    ///// <param name="ColomCount"></param>
-    //public virtual List<Seat> SeatsListAdd(int RowCount, int ColomCount)
-    //{
-    //    List<Seat> Seats = new List<Seat>();
-
-    //    for (int Row = 1; Row < RowCount; Row++)
-    //    {
-    //        for (int Colom = 1; Colom < ColomCount; Colom++)
-    //        {
-    //            Seats.Add(new Seat { Row = Row, Number = Colom, IsAvailable = true, icon = "h" });
-    //        }
-    //    }
-
-    //    return Seats;
-    //}
-    ///// <summary>
-    ///// 
-    ///// </summary>
-    ///// <param name="seats"></param>
-    //public void CinemaHallHandler(List<Seat> seats)
-    //{
-    //    foreach (var seat in seats)
-    //    {
-
-
-    //        int rowIndex = seat.Row - 1;
-
-    //        while (rowIndex >= twoDimensionalList.Count)
-    //        {
-    //            twoDimensionalList.Add(new List<Seat>());
-    //        }
-
-    //        twoDimensionalList[rowIndex].Add(seat);
-
-    //       // Console.WriteLine($" Row - {seat.Row}     Number - {seat.Number}");
-
-
-    //    }
-    //}
-    ///// <summary>
-    /////
-    ///// </summary>
-    ///// <param name="twoDimensionalList"></param>
-    //public void CinemaHallReander(List<List<Seat>> twoDimensionalList)
-    //{
-    //    foreach (List<Seat> innerList in twoDimensionalList)
-    //    {
-    //        Console.WriteLine();
-    //        Console.WriteLine();
-    //        foreach (var seat in innerList)
-    //        {
-    //            Console.Write($"{seat.icon}  ");
-    //        }
-
-    //    }
-    //}
-
-    //#endregion
-    #endregion
-
-
-    #region Hisory
-
-
-    //public virtual void HistoryHandler()
-    //{
-    //    if (currentField != 0)
-
-    //        // Add to Histori list 
-    //        _dataService.choiceHistory.UnitOfScreenHistoris.Add(new UnitOfScreenHistori { ScreenNmae = $" -> {screenLines[currentField].Text}" });
-    //}
-
-
-    ///// <summary>
-    ///// Render history part of sreen
-    ///// </summary>
-    //public void HistoriRender()
-    //{
-    //    if (_dataService.choiceHistory.UnitOfScreenHistoris != null)
-    //    {
-    //        foreach (var unit in _dataService.choiceHistory.UnitOfScreenHistoris)
-    //        {
-    //            Console.Write(unit.ScreenNmae);
-    //        }
-    //    }
-    //}
-    #endregion
-
 
     #region ScreenRender
+    //method to display the screen   
 
     public virtual void ScreenRender(List<ScreenLineEntry> Lines, string ColorOfScreen = null)
     {
@@ -163,7 +74,7 @@ public abstract class Screen
     #endregion
 
     /// <summary>
-    /// 
+    /// additional screen section
     /// </summary>
     public virtual void AdditionalSection()
     {
@@ -173,12 +84,12 @@ public abstract class Screen
     #region ScreenColorHendlerRender
 
     /// <summary>
-    /// 
+    /// method to display screen lines
     /// </summary>
     /// <param name="ListOfLines"></param>
     public void ScreenLinesRender(List<ScreenLineEntry> ListOfLines)
     {
-        ScreenColorHandlerRender();
+        ScreenColorHandler();
 
         CursorHandler(ListOfLines, "Red");
 
@@ -196,13 +107,18 @@ public abstract class Screen
             Console.ResetColor();
         }
 
-        ScreenColorHandlerRender();
+        ScreenColorHandler();
 
         Console.WriteLine();
         Console.WriteLine("Your available choices are:");
     }
 
-    public string ScreenColorHandlerRender()
+
+    /// <summary>
+    /// change the color of the enter screen
+    /// </summary>
+    /// <returns></returns>
+    public string ScreenColorHandler()
     {
         if (Enum.TryParse(ScreenColor, out ConsoleColor color))
         {
@@ -213,13 +129,18 @@ public abstract class Screen
         return null;
     }
 
+    /// <summary>
+    /// method to change the class property of the rendered row
+    /// </summary>
+    /// <param name="ListOfLines"></param>
+    /// <param name="ColorOfCursor"></param>
     public virtual void CursorHandler(List<ScreenLineEntry> ListOfLines, string ColorOfCursor)
     {
         for (int i = 0; i < ListOfLines.Count; i++)
         {
             if (i != currentField)
             {
-                ListOfLines[i].ForegroundColor = ScreenColorHandlerRender();
+                ListOfLines[i].ForegroundColor = ScreenColorHandler();
             }
         }
         ListOfLines[currentField].ForegroundColor = ColorOfCursor;
@@ -245,6 +166,9 @@ public abstract class Screen
 
     #region Navigation
 
+    /// <summary>
+    /// method for handling keypresses for navigating the screen
+    /// </summary>
     public virtual void SwitchHandler()
     {
 
@@ -275,7 +199,7 @@ public abstract class Screen
     #region Navigation
 
     /// <summary>
-    /// обработка нажатия клавиши вверх
+    /// up keystroke handling
     /// </summary>
     public virtual void MoveUp()
     {
@@ -289,7 +213,7 @@ public abstract class Screen
         }
     }
     /// <summary>
-    /// обработка нажтии клавиши вниз 
+    /// down keystroke handling
     /// </summary>
     public virtual void MoveDown()
     {
@@ -307,7 +231,7 @@ public abstract class Screen
 
 
     /// <summary>
-    /// обработка нажатия клавиши Enter 
+    /// processing the Enter key
     /// </summary>
     public virtual void EnterScreen()
     {

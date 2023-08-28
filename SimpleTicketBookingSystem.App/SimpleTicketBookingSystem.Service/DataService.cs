@@ -9,7 +9,9 @@ using System.Threading.Tasks;
 
 namespace SimpleTicketBookingSystem.Service
 {
-
+    /// <summary>
+    /// movie storage service
+    /// </summary>
     public class DataService : IDataService
     {
         public IMovies Movies { get; set; }

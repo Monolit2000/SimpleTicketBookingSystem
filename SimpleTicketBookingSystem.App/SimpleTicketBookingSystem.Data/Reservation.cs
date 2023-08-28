@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace SimpleTicketBookingSystem.Data
 {
+    /// <summary>
+    /// class for booking seats in the cinema
+    /// </summary>
     public class Reservation
     {
         public Screening Screening { get; set; }

@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace SimpleTicketBookingSystem.Data
 {
+    /// <summary>
+    /// interface implementation
+    /// </summary>
     public class Seats : ISeats
     {
        public List<ISeat> SeatsList { get; set; }
@@ -17,6 +20,12 @@ namespace SimpleTicketBookingSystem.Data
             SeatsList = SeatsListAdd(5, 5);
         }
 
+        /// <summary>
+        /// seats list filling method
+        /// </summary>
+        /// <param name="RowCount"></param>
+        /// <param name="ColomCount"></param>
+        /// <returns></returns>
         private List<ISeat> SeatsListAdd(int RowCount, int ColomCount)
         {
             List<ISeat> Seats = new List<ISeat>();
@@ -25,6 +34,7 @@ namespace SimpleTicketBookingSystem.Data
             {
                 for (int Colom = 1; Colom <= ColomCount; Colom++)
                 {
+                    //if the row is the last, then fill it with VIP seats
                     if (Row == RowCount)
                     {
                         Seats.Add(new VIPSeat { Row = Row, Number = Colom, PriceMultiplier = 2, Price = 100, IsAvailable = true, icon = "H" });

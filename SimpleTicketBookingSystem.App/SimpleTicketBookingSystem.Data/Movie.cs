@@ -1,8 +1,10 @@
 ﻿using SimpleTicketBookingSystem.Interfaces.Data;
 
 namespace SimpleTicketBookingSystem.Data
-{ 
-    //⦁	Створіть клас Movie з властивостями: Title, Duration, AgeRestriction
+{
+    /// <summary>
+    /// interface implementation
+    /// </summary>
     public class Movie : IMovie
     {
        

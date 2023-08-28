@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace SimpleTicketBookingSystem.Interfaces.Data
 {
+    /// <summary>
+    /// movie interface
+    /// </summary>
     public interface IMovie
     {
         public string Title { get; set; }

@@ -6,6 +6,9 @@ using SimpleTicketBookingSystem.Interfaces.Data;
 
 namespace SimpleTicketBookingSystem.UI
 {
+    /// <summary>
+    /// main screen
+    /// </summary>
     public class MainScreen : Screen
     {
 
@@ -27,37 +30,19 @@ namespace SimpleTicketBookingSystem.UI
             while (true)
             {
 
-                
-
                 var list = new List<ScreenLineEntry>
                 {
                     new ScreenLineEntry { Text = "0. Exit" },
-                    new ScreenLineEntry { Text = "1. Choose a movie" },
-                    //new ScreenLineEntry { Text = "2. Select seats" },
-                    //new ScreenLineEntry { Text = "3. Show your ticket" },
+                    new ScreenLineEntry { Text = "1. Choose a movie" }
                 };
 
 
                 ScreenRender(list);
-
-
-
                 SwitchHandler();
-
             }
         }
 
-        public override void AdditionalSection()
-        {
-            //foreach (var movie in _dataService.Movies.MoviesList)
-            //{
-            //    //Console.WriteLine(movie.Seats.SeatsList[10].icon);
-            //    foreach (var seat in movie.Seats.SeatsList)
-            //    {
-            //        Console.WriteLine(seat.icon);
-            //    }
-            //}
-        }
+
 
         public override void EnterScreen()
         {
