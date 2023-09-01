@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "WIwj2v4ygI1eKZB9wjpTpblkWhLqBTPA0ipIvxcYBEplxyrwyEa0RH6eBVzYSx0ShO7Cw6GbqsbWrOccciwgRg==",
+  "dgSpecHash": "wyA4Q5qIOOEXvNyvl3xIzK4PswMBzJfyYOlckBO++6DYxxGMvG5+ny3hvRkShFWeEyjFUa2b7l/0rrOc4UNaEw==",
   "success": true,
   "projectFilePath": "E:\\final_coment\\SimpleTicketBookingSystem\\SimpleTicketBookingSystem.App\\SimpleTicketBookingSystem.Service\\SimpleTicketBookingSystem.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DIO\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\DIO\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\DIO\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\DIO\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\DIO\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512"
   ],

@@ -25,7 +25,6 @@ E:\PolantSystemTiked\SimpleTicketBookingSystem.App\SimpleTicketBookingSystem.Enu
 E:\final_coment\SimpleTicketBookingSystem\SimpleTicketBookingSystem.App\SimpleTicketBookingSystem.Enums\bin\Debug\net6.0\SimpleTicketBookingSystem.Enums.deps.json
 E:\final_coment\SimpleTicketBookingSystem\SimpleTicketBookingSystem.App\SimpleTicketBookingSystem.Enums\bin\Debug\net6.0\SimpleTicketBookingSystem.Enums.dll
 E:\final_coment\SimpleTicketBookingSystem\SimpleTicketBookingSystem.App\SimpleTicketBookingSystem.Enums\bin\Debug\net6.0\SimpleTicketBookingSystem.Enums.pdb
-E:\final_coment\SimpleTicketBookingSystem\SimpleTicketBookingSystem.App\SimpleTicketBookingSystem.Enums\obj\Debug\net6.0\SimpleTicketBookingSystem.Enums.csproj.AssemblyReference.cache
 E:\final_coment\SimpleTicketBookingSystem\SimpleTicketBookingSystem.App\SimpleTicketBookingSystem.Enums\obj\Debug\net6.0\SimpleTicketBookingSystem.Enums.GeneratedMSBuildEditorConfig.editorconfig
 E:\final_coment\SimpleTicketBookingSystem\SimpleTicketBookingSystem.App\SimpleTicketBookingSystem.Enums\obj\Debug\net6.0\SimpleTicketBookingSystem.Enums.AssemblyInfoInputs.cache
 E:\final_coment\SimpleTicketBookingSystem\SimpleTicketBookingSystem.App\SimpleTicketBookingSystem.Enums\obj\Debug\net6.0\SimpleTicketBookingSystem.Enums.AssemblyInfo.cs

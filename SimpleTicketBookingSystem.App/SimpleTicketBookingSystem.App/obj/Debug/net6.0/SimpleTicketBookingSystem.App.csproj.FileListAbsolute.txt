@@ -226,3 +226,4 @@ E:\final_coment\SimpleTicketBookingSystem\SimpleTicketBookingSystem.App\SimpleTi
 E:\final_coment\SimpleTicketBookingSystem\SimpleTicketBookingSystem.App\SimpleTicketBookingSystem.App\obj\Debug\net6.0\SimpleTicketBookingSystem.App.pdb
 E:\final_coment\SimpleTicketBookingSystem\SimpleTicketBookingSystem.App\SimpleTicketBookingSystem.App\obj\Debug\net6.0\SimpleTicketBookingSystem.App.genruntimeconfig.cache
 E:\final_coment\SimpleTicketBookingSystem\SimpleTicketBookingSystem.App\SimpleTicketBookingSystem.App\obj\Debug\net6.0\ref\SimpleTicketBookingSystem.App.dll
+E:\final_coment\SimpleTicketBookingSystem\SimpleTicketBookingSystem.App\SimpleTicketBookingSystem.App\bin\Debug\net6.0\Newtonsoft.Json.dll

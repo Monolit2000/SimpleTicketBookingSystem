@@ -30,6 +30,7 @@ namespace SimpleTicketBookingSystem.UI
             while (true)
             {
                 var list = new List<ScreenLineEntry>();
+                list.Add(new ScreenLineEntry { Text = "Exit" });
                 foreach (var movie in _dataService.Movies.MoviesList)
                 {
                     list.Add(new ScreenLineEntry { Text = movie.Title });
@@ -38,6 +39,8 @@ namespace SimpleTicketBookingSystem.UI
                 ScreenRender(list);
 
                 SwitchHandler();
+
+                return;
 
             }
         }
@@ -51,8 +54,11 @@ namespace SimpleTicketBookingSystem.UI
         {
             try
             {
-                _selectSeatsScreen.Show(_dataService.Movies.MoviesList[currentField]);
-
+                if (currentField == 0)
+                {
+                    return;
+                }
+                _selectSeatsScreen.Show(_dataService.Movies.MoviesList[currentField - 1]);
             }
             catch
             {

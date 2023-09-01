@@ -1,6 +1,7 @@
 ﻿using SimpleTicketBookingSystem.Data;
 using SimpleTicketBookingSystem.Data.Screen;
 using SimpleTicketBookingSystem.Enums;
+using SimpleTicketBookingSystem.Interfaces;
 using SimpleTicketBookingSystem.Interfaces.Data;
 using System;
 using System.Collections.Generic;
@@ -15,7 +16,13 @@ namespace SimpleTicketBookingSystem.UI
     /// </summary>
     public class SelectSeatsScreen : Screen
     {
-        
+        public IDataService _dataService;
+
+        public SelectSeatsScreen( IDataService dataService )
+        {
+            _dataService = dataService;
+        }
+
         public IMovie _movie { get; set; }
 
         public override void Show(IMovie movie)
@@ -45,6 +52,8 @@ namespace SimpleTicketBookingSystem.UI
 
                 //seat reservation
                 var resrvatuion = new Reservation(movie, seat, customerName);
+
+                _dataService.Reservation(resrvatuion);
 
                 return;
 

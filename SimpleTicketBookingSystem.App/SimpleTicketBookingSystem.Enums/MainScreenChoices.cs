@@ -7,7 +7,6 @@
     {
        Exit = 0,
        СhooseAMovie = 1,
-       addSiets = 2
-       
+       SaveJSON = 2
     }
 }

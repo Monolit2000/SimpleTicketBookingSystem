@@ -33,7 +33,8 @@ namespace SimpleTicketBookingSystem.UI
                 var list = new List<ScreenLineEntry>
                 {
                     new ScreenLineEntry { Text = "0. Exit" },
-                    new ScreenLineEntry { Text = "1. Choose a movie" }
+                    new ScreenLineEntry { Text = "1. Choose a movie" },
+                    new ScreenLineEntry{Text = "2. Save as JSON"}
                 };
 
 
@@ -54,9 +55,8 @@ namespace SimpleTicketBookingSystem.UI
                     case MainScreenChoices.СhooseAMovie:
                         _moviesScreen.Show();
                         break;
-
-                    case MainScreenChoices.addSiets:
-                        _selectSeatsScreen.Show();
+                    case MainScreenChoices.SaveJSON:
+                        _dataService.Write("E:\\final_coment\\SimpleTicketBookingSystem\\SimpleTicketBookingSystem.App\\SimpleTicketBookingSystem.App\\JSON_File\\json1.json");
                         break;
                 }
             }
